@@ -1,6 +1,5 @@
 # hps-cucumber-javascript
-[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-javascript.svg?branch=master)]#(https://travis-ci.org/hiptest/hps-cucumber-javascript)
-#[![Build Status](https://travis-ci.com/msantos321/CucumberStudio.svg?branch=master)](https://travis-ci.com/msantos321/CucumberStudio)
+#[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-javascript.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-javascript)
 
 Hiptest publisher samples with Cucumber/Javascript
 
@@ -39,11 +38,9 @@ Run tests
 To build the project and run the tests, use the following command:
 
     npm install
-    node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > junit_output.xml
-windows: node_modules\.bin\cucumber-js --format=json | node node_modules\cucumber-junit\bin\cucumber-junit --features-as-suites > junit_output.xml
+    node_modules\.bin\cucumber-js --format=json | node node_modules\cucumber-junit\bin\cucumber-junit --features-as-suites > json_output.xml
 
-+++Output.xml found here: F:\studio-cucumber\hps-cucumber-javascript>
 
 The SUT implementation can be seen in [``src/coffee_machine.js!``](https://github.com/hiptest/hps-cucumber-javascript/blob/master/src/coffee_machine.js)
 
-The test report is generated in ```junit_output.xml```
+The test report is generated in ```json_output.xml```
